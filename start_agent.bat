@@ -4,7 +4,7 @@ chcp 65001 >nul
 setlocal
 
 :: Definiere den Unix-kompatiblen Pfad zum Agenten-Verzeichnis
-set AGENT_DIR=/c/Users/Rober/OneDrive/Dokumente/Daten-Orchestrierung/bee-agent-framework-starter
+set AGENT_DIR=/c/path/to/your/bee-agent-framework-starter
 
 :: Frage den Benutzer nach dem Prompt
 set /p prompt="Gib den Prompt für den Agenten ein: "
